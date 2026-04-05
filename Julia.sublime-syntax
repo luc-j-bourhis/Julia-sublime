@@ -361,6 +361,8 @@ contexts:
         2: variable.macro.julia meta.generic-name.julia
 
   keywords:
+    - match: \bpublic\b
+      scope: keyword.declaration.export.julia
     - match: \b(abstract type|mutable struct|primitive type)\b
       scope: keyword.other.julia
     - match: \b(baremodule|begin|const|end|export|function|global|import|let|local|macro|module|quote|return|struct|using)\b
