@@ -717,3 +717,6 @@ f(#=x::Int=#; kwargs...) = 1
 foo(x::A{f(a)}) = 1
 # <- meta.function.inline.julia entity.name.function.julia meta.generic-name.julia
 #        ^^^^ meta.function.inline.julia meta.function.parameters.julia meta.parametric-type.julia meta.parametric-type.parameters.julia meta.function-call.julia
+
+arr[3:end]
+#     ^^^ constant.language.end.julia

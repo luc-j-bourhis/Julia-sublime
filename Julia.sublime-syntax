@@ -1118,4 +1118,7 @@ contexts:
         - match: \]
           scope: punctuation.section.sequence.end.julia
           set: after-expression
+        - match: \bend\b
+          scope: constant.language.end.julia
+          push: after-expression
         - include: main
